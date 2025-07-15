@@ -1,0 +1,78 @@
+.todo {
+    width: 650px;
+    min-height: 600px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.todo p {
+    text-align: center;
+    font-size: 22px;
+    color: #002765;
+    font-weight: bold;
+}
+
+
+.todo-header {
+    margin-top: 40px;
+    color: #002765;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 34px;
+}
+
+.todo-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.todo-input {
+    border-radius: 50px;
+    background-color: #edeef0;
+    border: none;
+    outline: none;
+    width: 550px;
+    height: 55px;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: all 0.06s ease-in-out;
+}
+
+
+.todo-input:hover {
+    outline: 3px solid #ff6739;
+}
+
+.todo-add-btn {
+    border-radius: 50px;
+    background: #ff6739;
+    width: 157px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -118px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.todo-add-btn:hover {
+    transform: scale(1.05);
+    outline: 1px solid blanchedalmond;
+    transition: 0.3s;
+}
